@@ -4,7 +4,7 @@ int main()
 {
   FILE *file;
   char input[50];
-  file= fopen("C:\\Users\\Student\\Desktop\\25024001\\File in C\\String input\\input.txt", "w");
+  file= fopen("C:\\Users\\Student\\Desktop\\25024017\\File in C\\String input\\input.txt", "w");
 
   if(file== NULL)
     printf("Error!");
@@ -17,4 +17,5 @@ int main()
   fclose(file);
   fgetch();
   return 0;
+
 }
