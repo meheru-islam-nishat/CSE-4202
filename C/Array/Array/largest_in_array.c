@@ -29,3 +29,4 @@ int main()
     printf("The largest number in the array is: %d", num[n-1]);
 
 }
+
